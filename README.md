@@ -18,6 +18,18 @@ A step-by-step series of examples that tell you how to get a development environ
 ## Python Command Examples
 
 <details>
+  <summary><b>List Comprehension</b></summary>
+
+  ```python
+  # Example of a substring in Python
+  >>> mylist=["alice", "bob"]
+  >>> [ name.upper() for name in mylist]
+  ['ALICE', 'BOB']
+
+
+
+
+<details>
   <summary><b>String Operations</b></summary>
 
   #### Substring
@@ -26,3 +38,5 @@ A step-by-step series of examples that tell you how to get a development environ
   my_string = "Hello, World!"
   substring = my_string[1:5]
   print(substring)  # Outputs: ello
+
+
