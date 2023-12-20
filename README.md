@@ -20,7 +20,7 @@ A step-by-step series of examples that tell you how to get a development environ
 <details>
   <summary><b>String Operations</b></summary>
 
-  ### Substring
+  #### Substring
   ```python
   # Example of a substring in Python
   my_string = "Hello, World!"
