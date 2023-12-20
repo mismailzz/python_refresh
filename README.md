@@ -17,11 +17,12 @@ A step-by-step series of examples that tell you how to get a development environ
 
 ## Python Command Examples
 
-### String Operations
+<details>
+  <summary><b>String Operations</b></summary>
 
-#### Substring
-```python
-# Example of a substring in Python
-my_string = "Hello, World!"
-substring = my_string[1:5]
-print(substring)  # Outputs: ello
+  ### Substring
+  ```python
+  # Example of a substring in Python
+  my_string = "Hello, World!"
+  substring = my_string[1:5]
+  print(substring)  # Outputs: ello
