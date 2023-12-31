@@ -77,7 +77,6 @@ A step-by-step series of examples that tell you how to get a development environ
     <summary><b>Other Comprehension</b></summary>
 
     ```python
-
     #Example-1: Dict. comprehension
     >>> { f"player-{num}":num for num in range(0,5) }
     {'player-0': 0, 'player-1': 1, 'player-2': 2, 'player-3': 3, 'player-4': 4}
