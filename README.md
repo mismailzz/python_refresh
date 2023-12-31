@@ -70,8 +70,6 @@ A step-by-step series of examples that tell you how to get a development environ
   >>> sum([ num for num in range(0,100) if num % 3 == 0 ])
   1683
   ```
-  </details>
-
 
   <details>
     <summary><b>Other Comprehension</b></summary>
