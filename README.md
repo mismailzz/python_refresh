@@ -74,5 +74,41 @@ A step-by-step series of examples that tell you how to get a development environ
 
 
   <details>
-    <summary><b>List Comprehension</b></summary>
+    <summary><b>Other Comprehension</b></summary>
+
+    ```python
+
+    #Example-1: Dict. comprehension
+    >>> { f"player-{num}":num for num in range(0,5) }
+    {'player-0': 0, 'player-1': 1, 'player-2': 2, 'player-3': 3, 'player-4': 4}
+
+    #Example-2: list comprehension to create a list of tuples, then turn the tuples into dict keys and values:
+    >>> list_tuples= [ (f"player-{num}",num) for num in range(0,5) ]
+    >>> print(list_tuples)
+    [('player-0', 0), ('player-1', 1), ('player-2', 2), ('player-3', 3), ('player-4', 4)]
+    >>> { key:value for (key, value) in list_tuples }
+    {'player-0': 0, 'player-1': 1, 'player-2': 2, 'player-3': 3, 'player-4': 4}
+
+    #Example-3: Set comprehension 
+    >>> my_set={num for num in [1,2,3,4]}
+    >>> print(my_set)
+    {1, 2, 3, 4}
+    >>> 
+
+    #Example-4: Generator expression 
+    >>> [ i ** 2 for i in range(10) if i%2 == 0]
+    [0, 4, 16, 36, 64]
+    >>> ( i ** 2 for i in range(10) if i%2 == 0)
+    <generator object <genexpr> at 0x100daeac0>
+    >>> gen_exp=( i ** 2 for i in range(10) if i%2 == 0 )
+    >>> [ print(num) for num in gen_exp ]
+    0
+    4
+    16
+    36
+    64
+    >>>
+
+    #timeit
+    ```    
   </details>
