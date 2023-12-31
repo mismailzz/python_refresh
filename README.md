@@ -55,3 +55,24 @@ A step-by-step series of examples that tell you how to get a development environ
   Not even 5
   Even 6
   Not even 9
+
+  # Example-5: List to string concatenation 
+  >>> my_list = [0, 1, 2, 3, 4]
+  >>> my_string = ",".join([str(i) for i in my_list])
+  >>> print(my_string)
+  0,1,2,3,4
+
+  # Example-6: MAX, MIN, SUM
+  >>> min([ num for num in range(0,100) if num % 3 == 0 ])
+  0
+  >>> max([ num for num in range(0,100) if num % 3 == 0 ])
+  99
+  >>> sum([ num for num in range(0,100) if num % 3 == 0 ])
+  1683
+  ```
+  </details>
+
+
+  <details>
+    <summary><b>List Comprehension</b></summary>
+  </details>
